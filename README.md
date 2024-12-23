@@ -16,7 +16,7 @@ Create a folder for the bot
 Open the terminal in that folder and paste the command below
 
 ```bash
-git clone https://github.com/rinckodev/vivi-music-community-discord-bot.git .
+git clone https://github.com/FelipeSilva72/discord-ticket.git .
 ```
 
 Install dependencies
