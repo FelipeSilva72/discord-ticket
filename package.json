@@ -1,0 +1,55 @@
+{
+  "name": "discord-ticket",
+  "type": "module",
+  "main": "build/index.js",
+  "scripts": {
+    "check": "tsc --noEmit && echo ✔ Ok",
+    "build": "tsc",
+    "dev": "tsx --env-file .env ./src/index.ts",
+    "dev:dev": "tsx --env-file .env.dev ./src/index.ts",
+    "watch": "tsx --watch --env-file .env ./src/index.ts",
+    "watch:dev": "tsx --watch --env-file .env.dev ./src/index.ts",
+    "start": "node --env-file .env ./build/index.js",
+    "start:dev": "node --env-file .env.dev ./build/index.js"
+  },
+  "dependencies": {
+    "@magicyan/discord": "^1.2.2",
+    "chalk": "^5.3.0",
+    "consola": "^3.2.3",
+    "discord.js": "^14.16.3",
+    "fast-glob": "^3.3.2",
+    "radix3": "^1.1.2",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^20.16.11",
+    "tsx": "4.8.0",
+    "typescript": "^5.6.3"
+  },
+  "imports": {
+    "#database": [
+      "./build/database/index.js"
+    ],
+    "#base": [
+      "./build/discord/base/index.js"
+    ],
+    "#functions": [
+      "./build/functions/index.js"
+    ],
+    "#menus": [
+      "./build/menus/index.js"
+    ],
+    "#settings": [
+      "./build/settings/index.js"
+    ],
+    "#tools": [
+      "./build/tools/index.js"
+    ],
+    "#server": [
+      "./build/server/index.js"
+    ],
+    "#lib": [
+      "./build/lib/index.js"
+    ]
+  }
+}
