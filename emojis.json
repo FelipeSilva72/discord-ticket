@@ -1,14 +1,4 @@
 {
-  "static": {
-    "calendar": "",
-    "cancel": "",
-    "check": "",
-    "info": "",
-    "key": "",
-    "mail": "",
-    "trash": "",
-    "file": "",
-    "user": ""
-  },
+  "static": {},
   "animated": {}
 }
