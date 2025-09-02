@@ -64,3 +64,7 @@ On the server use `/setup`
 | command     | Usage          | Description              |
 | ----------- | -------------- | ------------------------ |
 | ticket      | `/ticket <channel>` | Send of setup ticket |
+
+### Emojis
+
+To generate emojis from the project folder, follow this guide https://constatic-docs.vercel.app/pt/docs/emojis/start
