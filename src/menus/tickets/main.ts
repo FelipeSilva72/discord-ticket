@@ -16,6 +16,7 @@ import {
 interface TicketData {
   ticketId: string;
   reason: string;
+  memberName: string;
   createdAt: Date;
 }
 
@@ -30,6 +31,11 @@ export function mainMenu<R>(data: TicketData): R {
       ),
       createTextDisplay(
         `${icon.file} ${bold("Motivo")} ${codeBlock(data.reason)}`
+      ),
+      createTextDisplay(
+        `${icon.user} ${bold("Membro")} ${codeBlock(
+          "@".concat(data.memberName)
+        )}`
       ),
       createTextDisplay(
         `${icon.calendar} ${bold("Data de Criação")} ${codeBlock(

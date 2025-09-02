@@ -50,7 +50,12 @@ createResponder({
         const createdAt = ticketCreated.createdAt;
 
         const message = await ticketCreated.send(
-          menus.ticket.main({ ticketId, reason, createdAt })
+          menus.ticket.main({
+            ticketId,
+            reason,
+            memberName: member.displayName,
+            createdAt,
+          })
         );
 
         const row = createRow(
