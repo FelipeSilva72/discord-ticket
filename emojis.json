@@ -1,14 +1,14 @@
 {
   "static": {
-    "calendar": "https://cdn.discordapp.com/emojis/1412525516040306738.png",
-    "cancel": "https://cdn.discordapp.com/emojis/1412525517592199208.png",
-    "check": "https://cdn.discordapp.com/emojis/1412525518842232953.png",
-    "info": "https://cdn.discordapp.com/emojis/1412525520993648662.png",
-    "key": "https://cdn.discordapp.com/emojis/1412525522352607272.png",
-    "mail": "https://cdn.discordapp.com/emojis/1412525525519564954.png",
-    "trash": "https://cdn.discordapp.com/emojis/1412525526513619045.png",
-    "file": "https://cdn.discordapp.com/emojis/1412527057006493747.png",
-    "user": "https://cdn.discordapp.com/emojis/1412531155831619636.png"
+    "calendar": "",
+    "cancel": "",
+    "check": "",
+    "info": "",
+    "key": "",
+    "mail": "",
+    "trash": "",
+    "file": "",
+    "user": ""
   },
   "animated": {}
 }
